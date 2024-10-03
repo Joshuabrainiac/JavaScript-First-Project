@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container1">
+        <form class="form" onsubmit="SubmitForm(event)">
+            <div class="title">Add Contact</div>
+            <div class="input-div">
+                <div class="label">Upload</div>
+                <input onchange="UploadImage(event)" type="file" name="image" class="input normal">
+            </div>
+            <div class="input-div">
+                <div class="label">Username</div>
+                <input type="text" name="username" class="input normal">
+            </div>
+            <div class="input-div">
+                <div class="label">Email address</div>
+                <input type="email" name="email" class="input normal">
+            </div>
+            <div class="input-div">
+                <div class="label">Color</div>
+                <input type="color" name="color" class="input lastinput normal">
+            </div>
+            <image class="preview" >
+            <div class="button-div">
+                <button type="button" class="cancelbutton">Cancel</button>
+                <button type="submit" class="form-button"></button>
+            </div>
+        </form>
+    </div>
+
+    <div class="container2">
+        <div class="title">My Contacts</div>
+        <div class="container-body"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

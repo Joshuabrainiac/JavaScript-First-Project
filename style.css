@@ -1,0 +1,110 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background: whitesmoke;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container1,
+.container2 {
+    background: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    max-width: 32rem;
+    margin: 0 auto 1rem auto;
+    box-shadow: 5px 5px 10px rgba(192, 190, 190, 0.589);
+}
+
+.input-div {
+    margin-bottom: 0.5rem;
+}
+
+.input {
+    width: 100%;
+    padding: 0.3rem;
+    outline: none;
+    border: 1px solid lightgray;
+}
+
+.lastinput {
+    padding: 0 !important;
+}
+
+.button-div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.form-button {
+    background: green;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    text-transform: capitalize;
+    border-radius: 0.3rem;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin-bottom: 0.3rem;
+    border: 1px solid lightgray;
+}
+.contact-container>img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.contact-container {
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+}
+.contact-box {
+    width: 100%;
+    height: 1rem;
+}
+.contact-button {
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: none;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 1rem;
+}
+.updatebtn {
+    background: green;
+}
+.deletebtn {
+    background: red;
+}
+.no-contact {
+    color: gray;
+    text-align: center;
+    font-style: oblique;
+}
+.preview {
+    width: 7rem;
+    display: none;
+    height: 7rem;
+}
+.cancelbutton {
+    background: gray;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    text-transform: capitalize;
+    border-radius: 0.3rem;
+    display: none;
+}
